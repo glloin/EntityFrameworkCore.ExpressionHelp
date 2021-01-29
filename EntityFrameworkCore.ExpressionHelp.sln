@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkCore.ExpressionHelp", "EntityFrameworkCore.ExpressionHelp\EntityFrameworkCore.ExpressionHelp.csproj", "{AD5A6D35-E358-405D-89C9-7F0F8029463A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDAL", "SimpleDAL\SimpleDAL.csproj", "{4F8717D8-CCCE-4764-89EB-815374F4272B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDALTests", "SimpleDALTests\SimpleDALTests.csproj", "{30A26C23-DABC-4EE6-8051-24DD5F3762BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{AD5A6D35-E358-405D-89C9-7F0F8029463A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD5A6D35-E358-405D-89C9-7F0F8029463A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD5A6D35-E358-405D-89C9-7F0F8029463A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F8717D8-CCCE-4764-89EB-815374F4272B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F8717D8-CCCE-4764-89EB-815374F4272B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F8717D8-CCCE-4764-89EB-815374F4272B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F8717D8-CCCE-4764-89EB-815374F4272B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30A26C23-DABC-4EE6-8051-24DD5F3762BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A26C23-DABC-4EE6-8051-24DD5F3762BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A26C23-DABC-4EE6-8051-24DD5F3762BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30A26C23-DABC-4EE6-8051-24DD5F3762BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
